@@ -19,6 +19,7 @@ const Home = () => {
         <Boton> Call to action</Boton>
       </HomeContainer>
       <Section />
+      <Section />
     </>
   );
 };

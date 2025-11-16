@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { Children } from 'react';
 import { Container } from './SectionStyled';
 
 const Section = () => {
   return (
+    <>
+    
     <Container>
+      
       <h2>Sección de contenido</h2>
+      
     </Container>
+    </>
   );
 };
 
