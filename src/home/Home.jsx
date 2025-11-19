@@ -1,6 +1,7 @@
 import React from 'react';
 import { Boton, Hero, HomeContainer, Subtitulo, Titulo } from './HomeStyled';
 import Section from '../section/Section';
+import Contact from '../contact/Contact';
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       </HomeContainer>
       <Section />
       <Section />
+      <Contact />
     </>
   );
 };
