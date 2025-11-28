@@ -1,12 +1,13 @@
 import React from 'react';
 import { Boton, Hero, HomeContainer, Subtitulo, Titulo } from './HomeStyled';
-import Section from '../section/Section';
 import Contact from '../contact/Contact';
+import Footer from '../footer/Footer';
+import Nosotros from '../pages/nosotros/Nosotros';
 
 const Home = () => {
   return (
     <>
-      <HomeContainer>
+      <HomeContainer id='Inicio'>
         Imagen de fondo
         <Hero>
           <Titulo>Sección de inicio</Titulo>
@@ -19,9 +20,9 @@ const Home = () => {
         </Hero>
         <Boton> Call to action</Boton>
       </HomeContainer>
-      <Section />
-      <Section />
+      <Nosotros />
       <Contact />
+      <Footer />
     </>
   );
 };

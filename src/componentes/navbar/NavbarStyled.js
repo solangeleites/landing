@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const NavbarContainer = styled.div`
@@ -11,8 +12,10 @@ export const NavbarContainer = styled.div`
   top: 0;
 `;
 
-export const Logo = styled.h1`
+export const Logo = styled.a`
   font-size: 18px;
+  cursor: pointer;
+  text-decoration: none;
 `;
 
 export const ContainerLinks = styled.div`
@@ -23,6 +26,10 @@ export const ContainerLinks = styled.div`
   gap: 50px;
 `;
 
-export const Links = styled.a`
+export const NavlinkStyled = styled.a`
   text-decoration: none;
+  &.active {
+    font-weight:bolder;
+    color: violet;
+  }
 `;

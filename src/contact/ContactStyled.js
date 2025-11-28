@@ -28,6 +28,6 @@ export const FormStyled = styled(Form)`
   justify-content: center;
 	align-items: center;
   gap: 25px;
-  padding: 15px;
-  background: lightblue;
+  padding: 15px 35px;
+  border: 2px solid pink;
 `;

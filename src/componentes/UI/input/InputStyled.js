@@ -16,9 +16,8 @@ export const InputStyles = styled.input`
   border-color: ${({ error }) => (error ? 'error' : 'black')};
   border-radius: 5px;
   padding: 10px;
-  width: 250px;
+  width: 350px;
   background: transparent;
-  color: black;
   outline: none;
 `;
 

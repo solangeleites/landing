@@ -1,21 +1,24 @@
-import React from 'react'
-import { ContainerLinks, NavbarContainer, Logo, Links } from '../navbar/NavbarStyled'
-
+import React from 'react';
+import {
+  ContainerLinks,
+  NavbarContainer,
+  Logo,
+  NavlinkStyled,
+} from '../navbar/NavbarStyled';
 
 const Navbar = () => {
+
   return (
     //este es el contenedor del navbar
     <NavbarContainer>
-      <Logo>Logo</Logo>
+      <Logo href="/">Logo</Logo>
       <ContainerLinks>
-        <Links href="">Link 1</Links>
-        <Links href="">Link 2</Links>
-        <Links href="">Link 3</Links>
-        <Links href="">Link 4</Links>
-      </ContainerLinks>
+        <NavlinkStyled href='#Inicio' > Inicio</NavlinkStyled>
+        <NavlinkStyled href='#Nosotros' > Nosotros</NavlinkStyled>
+        <NavlinkStyled href='#Contacto' >Contacto </NavlinkStyled>
+      </ContainerLinks  >
     </NavbarContainer>
   );
-}
+};
 
-
-export default Navbar
+export default Navbar;

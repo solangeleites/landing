@@ -9,8 +9,8 @@ export const GlobalStyles = createGlobalStyle`
         margin: 0px;
         padding: 0px;
         font-family: 'Poppins', sans-serif;
-        scroll-behavior: smooth;
     }
     html {
           scroll-behavior: smooth;
+          
     }`;

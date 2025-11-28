@@ -16,7 +16,7 @@ import Submit from '../componentes/UI/submit/Submit';
 const Contact = () => {
   return (
     <>
-      <FormContainer>
+      <FormContainer id='Contacto'>
         <FormTitle>Contacto</FormTitle>
         <FormSubtitle>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium,
@@ -38,15 +38,16 @@ const Contact = () => {
             label="Nombre"
             type='text'
           />
-          <Input
-            name='surname'
-            label="Apellido"
-            type='text'
-          />
+
           <Input
           name='email'
           label="Email"
           type='email'
+          />
+          <Input
+          name='phone'
+          label="Teléfono"
+          type='number'
           />
           <Input
           name='message'

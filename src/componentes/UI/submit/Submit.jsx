@@ -3,7 +3,7 @@ import { ButtonSubmit } from './SubmitStyled';
 
 const Submit = () => {
 
-  return <ButtonSubmit type='submit'>Enviaaaaaaaaaaaar</ButtonSubmit>;
+  return <ButtonSubmit type='submit'>Enviar</ButtonSubmit>;
 };
 
 export default Submit;
